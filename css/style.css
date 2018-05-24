@@ -1,3 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 body {
     text-align: center;
+    font-size: 16px;
+
+}
+
+#score-wrapper {
+    margin-bottom: -3rem;
+}
+
+.score {
+    font-size: 2rem;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.score strong {
+    padding-left: 1rem;
+    font-size: 2rem;
+    color: green;
+}
+.lives {
+    width: 6rem;
+    height: 6rem;
+    background: url(../images/Heart.png) center / 75px 95px no-repeat;
+    display: inline-block;
+}
+
+.lives strong {
+    color: #fff;
+    font-size: 2rem;
+    line-height: 6rem;
 }
